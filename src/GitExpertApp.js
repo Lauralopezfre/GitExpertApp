@@ -6,7 +6,7 @@ export const GitExpertApp = () => {
 
     // const categorias = ['Mario', 'Luigi', 'Sorbito'];
 
-    const [personajes, setPersonajes] = useState(['Mario'])
+    const [personajes, setPersonajes] = useState(['Mario Bross'])
     
     // // Renderizar cuando se añada un nuevo personaje
     // const handleAdd = () => {

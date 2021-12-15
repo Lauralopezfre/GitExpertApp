@@ -14,7 +14,7 @@ export const AddPersonaje = ({setPersonajes}) => {
         // console.log("Se ha subido")
 
         if(inputValue.trim().length > 2){
-            setPersonajes(cats => [...cats, inputValue])
+            setPersonajes(cats => [ inputValue, ...cats])
             setInputValue('')
         }
         

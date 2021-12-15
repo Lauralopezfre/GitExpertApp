@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import 'animate.css';
 
 export const GifGridItem = ( {img} ) => {
     return (
-        <div className='card'>
+        <div className="card animate__animated animate__fadeIn">
             <img src={img.url} alt={img.title}/>
             <p>{img.title}</p>
         </div>
